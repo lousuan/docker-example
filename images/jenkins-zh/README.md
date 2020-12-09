@@ -7,4 +7,4 @@
 3. 安装了以下插件
    - `localization-zh-cn` 中文本地化插件
    - `publish-over-ssh` jenkins ssh 插件，用于连接到其他机器执行脚本
-   - `git` 集成 git 客户端，用于拉取图片
+   - `git` 集成 git 客户端，用于拉取代码
