@@ -2,8 +2,8 @@ version: '3'
 
 services: 
   jenkins:
-    image: jenkins-zh:lts
-    container_name: jenkins-zh
+    image: jenkinsci/blueocean
+    container_name: jenkins
     ports: 
       - 8080:8080
       - 50000:50000

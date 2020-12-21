@@ -1,6 +1,6 @@
 ### 说明
 
-该 jenkins 基于官方 jenkins:lts 镜像制作，主要改动有：
+该 jenkins 基于官方 jenkinsci/blueocean 镜像制作，主要改动有：
 
 1. 时区修改为东八区
 2. 预装了 maven 和 nodejs 10

@@ -6,4 +6,4 @@ docker run --restart=always \
     -p 80:8080 \
     -p 50000:50000 \
     --name jenkins \
-    jenkins-zh:lts
+    jenkinsci/blueocean
