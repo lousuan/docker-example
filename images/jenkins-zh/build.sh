@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t jenkins-zh:lts .
+docker build -t jenkins-zh:latest .
