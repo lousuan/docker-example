@@ -1,0 +1,1 @@
+docker build -t logstash-sls:6.4.3 .

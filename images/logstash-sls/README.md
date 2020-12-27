@@ -1,0 +1,1 @@
+基于 logstash 6.4.3 打包的 logstash 镜像，预装了[阿里云 sls 日志上传插件](https://github.com/aliyun/logstash-input-logservice)
