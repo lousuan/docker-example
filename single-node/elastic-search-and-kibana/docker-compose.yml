@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  es:
+    image: elasticsearch:7.4.2
+    restart: always
+    container_name: elasticsearch
+    environment:
+      discovery.type: single-node
+      ES_JAVA_OPTS: "-Xms3072m -Xmx3072m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - ./data:/usr/share/elasticsearch/data
+      
+  kibana:
+    image: kibana:7.4.2
+    restart: always
+    container_name: kibana
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      I18N_LOCALE: "zh-CN"
+    ports:
+      - "5601:5601"
